@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    outline: none;
+}
+body{
+    background-image:url(../Imagenes/backgroud.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Contenedor{
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(136,136,206,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.Centrado{
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.Formulario{
+    margin-top:  20px;
+    background-color: rgba(47, 47, 105, 0.8);
+    width: 40%;
+    padding: 40px;
+    margin-left: 26.5%;
+}
+
+.Subtitulo{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.TextoPequeño{
+    font-size: 14px;
+}
+
+.TextoGris {
+    color: gray; 
+}
+
+.EntradaDatos{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+}
+
+input{
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+select{
+    padding-left: 6px;
+    width: 100%;
+    font-size: 16px;
+}
+
+select::-ms-value{
+    color: gray;
+}
+
+.Espaciado{
+    margin-top: 10px;
+}
+
+.Espaciado2{
+    margin-top: 4px;
+}
+
+.EtiquetaAmiga{
+    color: white;
+    font-size: 16px;
+}
+
+.AreaComentarios{
+    margin-top: 5px;
+    width: 100%;
+    height: 80px;
+    resize: none;
+    font-size: 16px;
+}
+
+.BotonEnviar{
+    color: wheat;
+    background-color: rgb(23, 182, 23);
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
